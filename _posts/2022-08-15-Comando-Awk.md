@@ -69,4 +69,3 @@ echo $PATH | awk '{for (i = 1; i <= NF ;i++) print $i}' FS=':'
 ```bash
 echo $PATH | awk '1' RS=':'
 ```
-
