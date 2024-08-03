@@ -1,12 +1,14 @@
 ---
 title: Comando Awk
-author: J.Conde
+author: Jose Conde
 date: 2022-08-15 23:40:00 -03000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]
 math: true
 mermaid: true
 ---
+
+![Wallapaper](/assets/img/post/commands/awk.png)
 
 ## Índice
 - [Definición](#definición)
