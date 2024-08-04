@@ -7,7 +7,7 @@ tags: [guide]
 math: true
 mermaid: true
 image: 
-   path: /assets/img/post/security/2FA.png
+   path: /assets/img/post/security/2FA_logo.png
    alt: 2FA for SSH 
 ---
 
