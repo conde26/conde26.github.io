@@ -8,14 +8,17 @@ math: true
 mermaid: true
 image: 
    path: /assets/img/post/security/2FA.png
-   alt: AWK Command
+   alt: 2FA for SSH
 ---
 
 ## Índice
 - [Definición](#definición)
 - [Instalación](#instalación)
-- [Actualización](#actualizar-portainer)
-
+- [Configuración](#configuración)
+    - [Google Authenticator](#configuración-de-google-authenticator)
+    - [Autenticación](#configuración-de-autenticación)
+- [Comprobación](#comprobación)
+- [Referencias](#referencias)
 
 ### Definición
 
@@ -94,7 +97,7 @@ Reiniciamos el servicio de ssh y listo.
 service sshd restart
 ```
 
-### Comprobaciíon 
+### Comprobación 
 Intentamos acceder por SSH a nuestro servidor con Termius, ya que aquí se ve claro como lo pide. 
 
 ![PackageConfig5](/assets/img/post/security/2FA-Config_5.png)
