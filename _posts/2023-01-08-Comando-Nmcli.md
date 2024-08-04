@@ -1,6 +1,6 @@
 ---
 title: Comando Nmcli
-author: J.Conde
+author: conde
 date: 2023-01-08 01:26:00 -03000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]

@@ -1,6 +1,6 @@
 ---
 title: Instalación y configuración de Docker
-author: J.Conde
+author: conde
 date: 2023-06-13 12:58:00 -03000 
 categories: [DevOps, Docker]
 tags: [DevOps]

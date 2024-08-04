@@ -1,6 +1,6 @@
 ---
 title: Comando Sed
-author: J.Conde
+author: conde
 date: 2022-08-15 23:56:00 3000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]

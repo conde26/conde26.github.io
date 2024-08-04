@@ -1,6 +1,6 @@
 ---
 title: Instalación y configuración de Portainer
-author: J.Conde
+author: conde
 date: 2023-08-23 19:30:00 -03000 
 categories: [DevOps, Portainer]
 tags: [DevOps]

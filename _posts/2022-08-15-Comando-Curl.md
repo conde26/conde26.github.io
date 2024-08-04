@@ -1,6 +1,6 @@
 ---
 title: Comando Curl
-author: J.Conde
+author: conde
 date: 2022-08-15 22:56:00 -03000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]

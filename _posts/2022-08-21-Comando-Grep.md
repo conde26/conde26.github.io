@@ -1,6 +1,6 @@
 ---
 title: Comando Grep
-author: J.Conde
+author: conde
 date: 2022-08-21 11:44:00 -03000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]

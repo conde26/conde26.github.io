@@ -1,6 +1,6 @@
 ---
 title: Enumeración de tareas Cron
-author: J.Conde
+author: conde
 date: 2022-08-20 16:25:00 -03000 
 categories: [Hacking, Pentesting]
 tags: [Pentesting, guide, Linux]

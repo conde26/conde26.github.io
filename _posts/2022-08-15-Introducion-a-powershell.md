@@ -1,6 +1,6 @@
 ---
 title: Introducción a PowerShell
-author: J.Conde
+author: conde
 date: 2022-08-16 13:38::00 -03000 
 categories: [Windows, PowerShell]
 tags: [Scripting, guide]

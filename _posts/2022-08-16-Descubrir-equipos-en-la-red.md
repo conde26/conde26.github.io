@@ -1,6 +1,6 @@
 ---
 title: Descubrimiento de equipos en la Red
-author: J.Conde
+author: conde
 date: 2023-05-18 17:51:00 -03000 
 categories: [Hacking, Pentesting]
 tags: [Pentesting, guide]

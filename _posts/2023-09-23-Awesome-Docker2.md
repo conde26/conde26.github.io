@@ -1,6 +1,6 @@
 ---
 title: Imágenes en Docker
-author: J.Conde
+author: conde
 date: 2023-08-23 20:05:00 -03000 
 categories: [DevOps, Docker]
 tags: [DevOps]

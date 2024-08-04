@@ -1,6 +1,6 @@
 ---
 title: Introducción a Jenkins
-author: J.Conde
+author: conde
 date: 2023-06-13 12:58:00 -03000 
 categories: [DevOps, Jenkins]
 tags: [DevOps]

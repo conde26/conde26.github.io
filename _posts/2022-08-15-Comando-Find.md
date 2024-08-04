@@ -1,6 +1,6 @@
 ---
 title: Comando Find
-author: J.Conde
+author: conde
 date: 2022-08-15 23:44:00 -03000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]

@@ -1,6 +1,6 @@
 ---
 title: Agregar nodos a Portainer
-author: J.Conde
+author: conde
 date: 2023-08-24 10:45:00 -03000 
 categories: [DevOps, Portainer]
 tags: [DevOps]

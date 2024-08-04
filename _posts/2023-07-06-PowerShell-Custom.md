@@ -1,6 +1,6 @@
 ---
 title: Personalización de terminal de PowerShell 
-author: J.Conde
+author: conde
 date: 2023-06-15 12:58:00 -03000 
 categories: [Windows, PowerShell]
 tags: [Windows, PowerShell]
