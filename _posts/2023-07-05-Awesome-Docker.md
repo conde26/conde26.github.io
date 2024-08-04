@@ -6,6 +6,9 @@ categories: [DevOps, Docker]
 tags: [DevOps]
 math: true
 mermaid: true
+image: 
+   path: /assets/img/post/docker/docker_logo.png
+   alt: Docker logo
 ---
 
 ## Índice
