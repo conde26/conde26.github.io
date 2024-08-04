@@ -7,7 +7,7 @@ tags: [DevOps]
 math: true
 mermaid: true
 image: 
-   path: /assets/img/post/docker/docker_logo.png
+   path: /assets/img/post/docker/docker_logo.jpg
    alt: Docker logo
 ---
 
