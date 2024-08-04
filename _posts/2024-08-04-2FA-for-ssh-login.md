@@ -68,7 +68,7 @@ Ejecutamos el siguiente comando para agregar la linea necesaria al fichero PAM d
 echo 'auth required pam_google_authenticator.so secret=/home/${USER}/.ssh/google_authenticator nullok' >> /etc/pam.d/sshd
 ```
 
-* Tener en cuenta con que usuario lo ejecutamos!! Si es root la ruta no es esa es: 
+* **Tener en cuenta con que usuario lo ejecutamos**. Si es root la ruta no es esa es: 
     * /root/.ssh/google_authenticator 
 
 De forma que quede así: 
@@ -107,4 +107,4 @@ Introduccimos el código, y listo, ya estamos dentro.
 ![PackageConfig6](/assets/img/post/security/2FA-Config_6.png)
 
 ### Referencias
-* https://4sysops.com/archives/enable-two-factor-authentication-for-ssh-in-linux/ 
+* [2FA for Linux by 4sysops](https://4sysops.com/archives/enable-two-factor-authentication-for-ssh-in-linux/)
