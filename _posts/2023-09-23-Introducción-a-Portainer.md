@@ -6,6 +6,9 @@ categories: [DevOps, Portainer]
 tags: [DevOps]
 math: true
 mermaid: true
+image: 
+   path: /assets/img/post/portainer/portainer_logo.png
+   alt: Portainer logo
 ---
 
 ## Índice
