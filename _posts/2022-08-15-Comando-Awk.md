@@ -1,6 +1,6 @@
 ---
 title: Comando Awk
-author: conde26
+author: conde
 date: 2022-08-15 23:40:00 -03000 
 categories: [Linux, Comandos]
 tags: [Comandos, guide]
