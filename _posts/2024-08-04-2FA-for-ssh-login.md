@@ -8,7 +8,7 @@ math: true
 mermaid: true
 image: 
    path: /assets/img/post/security/2FA.png
-   alt: 2FA for SSH
+   alt: 2FA for SSH 
 ---
 
 ## Índice
