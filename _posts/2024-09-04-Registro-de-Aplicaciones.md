@@ -53,7 +53,7 @@ Le damos a **New registration**.
 En tipo de cuentas compatibles, tenemos 4 tipos, que son los siguientes: 
 
 
-<table border="1" cellpadding="10">
+<table border="1">
     <tr>
         <th style="text-align: center;">Tipos de cuenta admitidos</th>
         <th style="text-align: center;">Descripción</th>
