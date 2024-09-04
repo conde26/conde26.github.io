@@ -3,7 +3,7 @@ title: Registro de aplicaciones en Entra ID
 author: conde
 date: 2024-09-04 11:06:00 -03000 
 categories: [Microsoft, EntraID]
-categories: [Microsoft, EntraID]
+tags: [Microsoft, EntraID]
 math: true
 mermaid: true
 image: 
