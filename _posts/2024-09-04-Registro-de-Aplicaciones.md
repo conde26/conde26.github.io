@@ -23,7 +23,7 @@ image:
 
 ### Introducción
 
-La Autenticación en **Dos Factores (2FA, por sus siglas en inglés)** es un método de seguridad que requiere dos formas distintas de verificación para acceder a una cuenta o sistema. Estos factores suelen incluir algo que el usuario sabe (como una contraseña) y algo que el usuario tiene (como un código enviado a un dispositivo móvil). Esta combinación reduce significativamente el riesgo de acceso no autorizado, ya que incluso si la contraseña es comprometida, el acceso no se otorgará sin el segundo factor.
+El Registro de Aplicaciones en Entra ID es un proceso esencial que permite a los desarrolladores integrar sus aplicaciones con los servicios de autenticación y autorización de Microsoft. Al registrar una aplicación, se crea una identidad única en Entra ID, lo que facilita la autenticación segura y el acceso a los recursos necesarios. Este proceso implica configurar permisos y asignar roles para que la aplicación interactúe correctamente con otros servicios y APIs, garantizando así un entorno seguro y controlado.
 
 ### Requisitos
 
@@ -38,7 +38,7 @@ Comenzamos accediendo al panel de administración de Entra ID, anteriormente lla
 
 * [Panel de administración de Entra ID](https://entra.microsoft.com/)
 
-Nos dirigimos a **Identity | App Registrations**
+Nos dirigimos a **Identity** y seleccionamos **App Registrations**
 
 #### Overview 
 
@@ -52,12 +52,32 @@ Le damos a **New registration**.
 
 En tipo de cuentas compatibles, tenemos 4 tipos, que son los siguientes: 
 
-|                          Tipos de cuenta admitidos                          |                                                                                                                                                                                           Descripción                                                                                                                                                                                           |   |   |   |
-|:---------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|---|---|---|
-| Solo las cuentas de este directorio organizativo                            | Seleccione esta opción si va a desarrollar una aplicación para que la utilicen usuarios (o invitados) de su inquilino. A menudo denominada aplicación de línea de negocio, se trata de una aplicación de un solo inquilino en la plataforma de identidad de Microsoft.                                                                                                                          |   |   |   |
-| Cuentas en cualquier directorio organizativo                                | Seleccione esta opción si desea que los usuarios de cualquier inquilino de Azure Active Directory (Azure AD) pueda usar la aplicación. Esta opción es adecuada si, por ejemplo, va a desarrollar una aplicación de software como servicio (SaaS) que desea proporcionar a varias organizaciones. Este tipo de aplicación se denomina multiinquilino en la plataforma de identidad de Microsoft. |   |   |   |
-| Cuentas en cualquier directorio organizativo y cuentas Microsoft personales | Seleccione esta opción para establecer como destino el mayor conjunto posible de clientes. Al seleccionar esta opción, estará registrando una aplicación multiinquilino que también admite usuarios con cuentas personales de Microsoft. Las cuentas personales de Microsoft abarcan las cuentas de Skype, Xbox, Live y Hotmail.                                                                |   |   |   |
-| Cuentas personales de Microsoft                                             | Seleccione esta opción si va a crear una aplicación solo para usuarios con cuentas personales de Microsoft. Las cuentas personales de Microsoft abarcan las cuentas de Skype, Xbox, Live y Hotmail.                                                                                                                                                                                             |   |   |   |
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th style="text-align: center;">Tipos de cuenta admitidos</th>
+        <th style="text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Solo las cuentas de este directorio organizativo</td>
+        <td>Seleccione esta opción si va a desarrollar una aplicación para que la utilicen usuarios (o invitados) de su inquilino. A menudo denominada aplicación de línea de negocio, se trata de una aplicación de un solo inquilino en la plataforma de identidad de Microsoft.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Cuentas en cualquier directorio organizativo</td>
+        <td>Seleccione esta opción si desea que los usuarios de cualquier inquilino de Azure Active Directory (Azure AD) pueda usar la aplicación. Esta opción es adecuada si, por ejemplo, va a desarrollar una aplicación de software como servicio (SaaS) que desea proporcionar a varias organizaciones. Este tipo de aplicación se denomina multiinquilino en la plataforma de identidad de Microsoft.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Cuentas en cualquier directorio organizativo y cuentas Microsoft personales</td>
+        <td>Seleccione esta opción para establecer como destino el mayor conjunto posible de clientes. Al seleccionar esta opción, estará registrando una aplicación multiinquilino que también admite usuarios con cuentas personales de Microsoft. Las cuentas personales de Microsoft abarcan las cuentas de Skype, Xbox, Live y Hotmail.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Cuentas personales de Microsoft</td>
+        <td>Seleccione esta opción si va a crear una aplicación solo para usuarios con cuentas personales de Microsoft. Las cuentas personales de Microsoft abarcan las cuentas de Skype, Xbox, Live y Hotmail.</td>
+    </tr>
+</table>
+
+
+
 Una vez le damos a crear ya tenemos los siguientes datos. 
 
 * **ClientID**, es el ID de aplicación el AppID.
